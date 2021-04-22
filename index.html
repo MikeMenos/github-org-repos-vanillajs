@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Organization Repo Names</h2>
+      <form id="form" autocomplete="off" action="">
+        <input
+          class="form-control"
+          type="text"
+          id="repositories"
+          autofocus
+          placeholder="Search for repositories..."
+        />
+        <button class="btn btn-primary" type="submit">Search</button>
+      </form>
+      <br />
+
+      <table id="content" class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Stars</th>
+            <th>Last Updated</th>
+            <th>Favorites</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="prev-next">
+      <button class="btn btn-secondary" id="prev" type="submit">
+        &laquo; Previous
+      </button>
+      <button class="btn btn-secondary" id="clear">Clear</button>
+      <button class="btn btn-secondary" id="next" type="submit">
+        Next &raquo;
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
