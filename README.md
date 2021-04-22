@@ -1,1 +1,3 @@
-# Just download and run index.html.
+# How to use
+
+Just download and run index.html.
